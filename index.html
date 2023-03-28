@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/basic.css" />
+    <script src="./js/echarts.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="head-left">
+        <img src="./img/LOGO.png" alt="" />
+      </div>
+      <div class="head-right">
+        <img src="./img/signup.png" alt="" />
+
+        <img src="./img/bell.png" alt="" />
+        <img src="./img/settings.png" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <nav>
+        <div class="nav-l">
+          <h1>Audience Overview</h1>
+          <span>Roseville, CA</span>
+        </div>
+        <div class="nav-r">
+          <ul>
+            <li data-id="0">Dashboard</li>
+            <li data-id="1">Projects</li>
+            <li data-id="2">Calendar</li>
+            <li data-id="3">Mail box</li>
+            <li data-id="4">Settings</li>
+          </ul>
+          <span class="move"></span>
+        </div>
+      </nav>
+
+      <div class="content-top">
+        <div class="content-left">
+          <div class="slider">
+            <ul>
+              <li><img class="fade" src="./img/1.jpg" alt="" /></li>
+              <li><img class="fade" src="./img/2.jpg" alt="" /></li>
+              <li><img class="fade" src="./img/3.jpg" alt="" /></li>
+              <li><img class="fade" src="./img/4.jpg" alt="" /></li>
+              <li><img class="fade" src="./img/1.jpg" alt="" /></li>
+            </ul>
+
+            <a class="prev">&lt;</a>
+            <a class="next">&gt;</a>
+
+            <ul class="dot-nav">
+              <li class="dot selected" data-dot="0"></li>
+              <li class="dot" data-dot="1"></li>
+              <li class="dot" data-dot="2"></li>
+              <li class="dot" data-dot="3"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content-right"></div>
+      </div>
+
+      <div id="content-center"></div>
+
+       <div id="content-bottom"></div>
+    </main>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/setChart.js" ></script>
+  </body>
+</html>
